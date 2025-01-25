@@ -32,6 +32,7 @@
 npm install tailwindcss @tailwindcss/vite
 ```
 
+
 ### Install AWS Amplify
 1. **Install AWS Amplify and the Amplify UI Component Library**
    ```bash

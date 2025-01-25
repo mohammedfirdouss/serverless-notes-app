@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   server: {
-    allowedHosts: 'all', // Allow all hosts, including dynamically changing Gitpod URLs
+    allowedHosts: true, // Allow all hosts, including dynamic Gitpod URLs
   },
 });

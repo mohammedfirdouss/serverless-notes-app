@@ -1,3 +1,6 @@
+## Documentation for Branch 01
+
+
 ### AWS CLI Installation
 
 AWS CLI is installed for the project via the bash script [`./bin/install_aws_cli`](./bin/install_aws_cli)
@@ -20,9 +23,11 @@ This bash script is located here: [./bin/install_aws_cli](./bin/install_aws_cli)
 
 
 ### Working Env Vars
+
 #### env command
 We can list out all Enviroment Variables (Env Vars) using the `env` command
 We can filter specific env vars using grep eg. `env | grep AWS_
+
 #### Setting and Unsetting Env Vars
 In the terminal we can set using `export HELLO='world`
 In the terrminal we unset using `unset HELLO`
@@ -38,6 +43,7 @@ echo $HELLO
 ```
 #### Printing Vars
 We can print an env var using echo eg. `echo $HELLO`
+
 #### Persisting Env Vars in Gitpod
 We can persist env vars into gitpod by storing them in Gitpod Secrets Storage.
 ```
